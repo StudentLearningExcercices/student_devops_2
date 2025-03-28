@@ -15,6 +15,9 @@ Dans cette première partie, nous allons créer une application front avec un ba
 
 2. Créez deux playbooks Ansible permettant de créer les archives zip du front et du backend avec la bonne version et, si nécessaire, de décompresser le front.
 
+
+
+
 3. Dans le fichier **create_front_and_backend_archives.yml** situé dans le dossier **infrastructure/ansible**, ajoutez une tâche pour créer un dossier **build** :
 
    - **Emplacement du dossier** : `../../build`
